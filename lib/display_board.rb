@@ -1,6 +1,6 @@
 $board = Array.new(9, "   ")
 
-def display_board("#{$board}")
+def display_board(bord = "#{$board}")
 
    board_game_devision = "-----------"
    puts $board[0] + "|" + $board[1] + "|" + $board[2],
