@@ -1,9 +1,10 @@
-def display_board
-   board_game_row = Array.new(9, "   ")
+board = Array.new(9, "   ")
+
+def display_board()
    board_game_devision = "-----------"
-   puts board_game_row[0] + "|" + board_game_row[1] + "|" + board_game_row[2],
+   puts board[0] + "|" + board[1] + "|" + board[2],
         board_game_devision,
-        board_game_row[3] + "|" + board_game_row[4] + "|" + board_game_row[5],
+        board[3] + "|" + board[4] + "|" + board[5],
         board_game_devision,
-        board_game_row[6] + "|" + board_game_row[7] + "|" + board_game_row[8]
+        board[6] + "|" + board[7] + "|" + board[8]
 end
