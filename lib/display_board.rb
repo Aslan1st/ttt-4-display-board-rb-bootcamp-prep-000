@@ -1,7 +1,6 @@
 $board = Array.new(9, " ")
 
 def display_board(board = $board)
-
    board_game_devision = "-----------"
    puts " #{board[0]} | #{board[1]} | #{board[2]} ",
         board_game_devision,
